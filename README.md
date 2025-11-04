@@ -1,4 +1,4 @@
-# Tries and Subset Sum (SOS): A Curious Exploration
+# Tries and Subset Sum (SOS) implenentation I did sometime ago...
 
 I built this small project out of curiosity after learning about the underlying concepts in school. It combines two elegant ideas from algorithms: prefix trees (tries) and dynamic programming for the “sum of selections” (a subset-sum style problem). The goal was to understand the mechanics deeply, write clean implementations, and have a compact playground to experiment with.
 
