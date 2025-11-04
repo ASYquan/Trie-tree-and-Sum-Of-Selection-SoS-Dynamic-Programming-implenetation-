@@ -9,7 +9,7 @@ I built this small project out of curiosity after learning about the underlying 
 
 ## What’s included
 
-- Exercise 1 — Trie (Prefix Tree)
+- Trie (Prefix Tree)
   - Uncompressed trie for lowercase words.
   - `insert(word)`: adds a word; inserting duplicates doesn’t change the structure.
   - `lookUp(word)`: checks if the exact word exists in the trie.
@@ -19,7 +19,7 @@ I built this small project out of curiosity after learning about the underlying 
     ((al(gorithm)(l))(inter(n(ally)(et))(view))(w(eb)(orld)))
     ```
 
-- Exercise 2 — Sum of Selections (SOS) via Dynamic Programming
+- Sum of Selections (SOS) via Dynamic Programming
   - Bottom-up approach:
     - Builds a boolean table indicating which sums are achievable from prefixes of the sequence.
     - Returns one valid subset achieving target $K$, or `null` if none exists.
@@ -29,6 +29,7 @@ I built this small project out of curiosity after learning about the underlying 
 
 ## How it works (brief)
 
+- Intended with LaTeX, but forgot GitHub doesn't have the compilation. Oh well¯\_(ツ)_/¯
 - Trie
   - Each node stores a map from character → child and a boolean “end-of-word” flag.
   - Printing is a pre-order traversal that emits nested parenthesized substrings in alphabetical order.
@@ -67,5 +68,5 @@ I built this small project out of curiosity after learning about the underlying 
 - SOS:
   - Bottom-up class precomputes a table for the whole sequence and can answer multiple $K$ values quickly.
   - Top-down class initializes borders and answers a specific $K$ by exploring only the needed states.
+----
 
-If you’d like, I can add minimal code samples and a quick-start guide tailored to your preferred language (Python, Java, etc.).
